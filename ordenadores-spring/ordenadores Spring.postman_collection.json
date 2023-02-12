@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "9697c095-2930-4a99-a32c-908ffd7dd6ec",
+		"name": "ordenadores Spring",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18623885"
+	},
+	"item": [
+		{
+			"name": "/hola",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/laptops",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/laptop",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/laptop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"laptop"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

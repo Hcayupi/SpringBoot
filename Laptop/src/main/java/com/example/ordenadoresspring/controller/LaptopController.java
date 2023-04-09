@@ -97,7 +97,7 @@ public class LaptopController {
 
     //Eliminar todos los datos de la base de datos 
 
-    @DeleteMapping("/api/laptops")
+    @DeleteMapping("/api/laptops/delAll")
     public ResponseEntity<Laptop> deleteAll(){
     
         log.info("Deleting all");

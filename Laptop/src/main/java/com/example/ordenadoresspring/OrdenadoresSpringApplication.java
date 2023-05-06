@@ -27,7 +27,7 @@ public class OrdenadoresSpringApplication {
 		repository.save(laptop3);
 		repository.save(laptop4);
 
-		System.out.println("Num laptops en base de datos:" +repository.findAll().size());
+		System.out.println("Num laptops en base de datos: " +repository.findAll().size());
 	}
 
 }

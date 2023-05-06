@@ -50,9 +50,7 @@ public class LaptopControllerTest {
 
     @Test
     void findOneById() {
-
         ResponseEntity<Laptop> response =  testRestTemplate.getForEntity("/api/laptop/1", Laptop.class);
-
         assertEquals(HttpStatus.OK,response.getStatusCode());
     }
 
@@ -80,7 +78,5 @@ public class LaptopControllerTest {
             assertEquals(1L, result.getId());
             assertEquals("NEW0001", result.getModelo());
         }
-        
-
     }
 }
